@@ -27,4 +27,38 @@ http://localhost:8080/view/something
 Hello World!
 
 
+### 🐳 Running with Docker
+
+### Build the Docker image
+
+      docker build -t simple_webapp.go .
+
+
+### Run the container with port binding
+      docker run --name test -p 8080:8080 simple_webapp.go
+
+#### So -p 8080:8080 means:
+
+- Host listens on port 8080
+- Forwards traffic to port 8080 inside the container (where your Go app is running)
+
+### To stop a container
+      docker stop <container_id or container_name>
+
+### To remove a container
+      docker rm <container_id or container_name>
+
+### To view running containers
+      docker ps
+
+### To view all containers, including: 
+- Running
+- Exited (stopped)
+- Created (but not started)
+- Restarting
+- Paused
+
+       docker ps -a
+
+
 
