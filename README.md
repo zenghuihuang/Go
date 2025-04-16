@@ -20,8 +20,8 @@ This is a basic web server written in Go. It demonstrates handling HTTP requests
 http://localhost:8080/view/something
 
 ### Or use the curl command
-    ```bash
-           curl http://localhost:8080/view/test
+    
+    curl http://localhost:8080/view/test
 
 ### You should see: 
 Hello World!
