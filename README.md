@@ -15,8 +15,14 @@ This is a basic web server written in Go. It demonstrates handling HTTP requests
 
    ```bash
     go run simple_webapp.go
+
 ### Visit the following URL in your browser:
 http://localhost:8080/view/something
+
+### Or use the curl command
+    ```bash
+    curl http://localhost:8080/view/test
+
 
 ### You should see: 
 Hello World!
