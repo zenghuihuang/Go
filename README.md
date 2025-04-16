@@ -27,7 +27,7 @@ http://localhost:8080/view/something
 Hello World!
 
 
-### 🐳 Running with Docker
+# 🐳 Running with Docker
 
 ### Build the Docker image
 
@@ -58,7 +58,7 @@ Hello World!
 - Restarting
 - Paused
 
-       docker ps -a
+      docker ps -a
 
 
 
